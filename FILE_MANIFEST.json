@@ -3,7 +3,7 @@
   "algorithm": "SHA-256",
   "note": "This manifest excludes itself.",
   "sha256": {
-    ".gitignore": "080527dcb15291413417bad3f3adf0fd83e0102c32f79bbdce0b14ec6a81dd0f",
+    ".gitignore": "0762ef75b4210ce955b986c6d6d01161c461a4be8720c75825a306cab7c3646b",
     "AI_DISCLOSURE.md": "547b52a0f50c88acfaf989980f9572b62d2ef9af3ce5156f48581aa2163504b4",
     "code/analyze_validation.py": "331f91076e001f0dd6d16bdac0d4ccf6608e9257ac9010414ce2b46da02241c4",
     "code/build_condition_blend.py": "4e9abc975e734b25d6a587e17d5bf99d4da7b5eb9c2d631973f7c42de7ca666e",
