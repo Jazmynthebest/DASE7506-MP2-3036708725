@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.pyc
+code/data/candidates/
+code/data/gsm8k_*.jsonl
+code/runs/*
+!code/runs/round6/
+!code/runs/round6/README.md
+code/checkpoints/retrained/
+tmp/
