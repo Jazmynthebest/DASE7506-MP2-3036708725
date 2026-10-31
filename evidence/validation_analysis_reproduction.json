@@ -1,0 +1,75 @@
+{
+  "scope": "Fixed-checkpoint validation analysis; no fitting or test access.",
+  "ablations": [
+    {
+      "method": "Compact branch only",
+      "correct": 748,
+      "n": 798,
+      "accuracy": 93.734335839599,
+      "hard_correct": 305,
+      "hard_n": 355,
+      "hard_accuracy": 85.91549295774648
+    },
+    {
+      "method": "Arithmetic branch only",
+      "correct": 748,
+      "n": 798,
+      "accuracy": 93.734335839599,
+      "hard_correct": 305,
+      "hard_n": 355,
+      "hard_accuracy": 85.91549295774648
+    },
+    {
+      "method": "Final blend without answer pooling",
+      "correct": 748,
+      "n": 798,
+      "accuracy": 93.734335839599,
+      "hard_correct": 305,
+      "hard_n": 355,
+      "hard_accuracy": 85.91549295774648
+    },
+    {
+      "method": "Final blend",
+      "correct": 750,
+      "n": 798,
+      "accuracy": 93.98496240601504,
+      "hard_correct": 307,
+      "hard_n": 355,
+      "hard_accuracy": 86.47887323943661
+    }
+  ],
+  "rescued_plurality": 74,
+  "introduced_errors": 12,
+  "margin_quintiles": [
+    {
+      "quintile": 1,
+      "n": 71,
+      "correct": 49,
+      "accuracy": 69.01408450704226
+    },
+    {
+      "quintile": 2,
+      "n": 71,
+      "correct": 56,
+      "accuracy": 78.87323943661971
+    },
+    {
+      "quintile": 3,
+      "n": 71,
+      "correct": 65,
+      "accuracy": 91.54929577464789
+    },
+    {
+      "quintile": 4,
+      "n": 71,
+      "correct": 66,
+      "accuracy": 92.95774647887323
+    },
+    {
+      "quintile": 5,
+      "n": 71,
+      "correct": 71,
+      "accuracy": 100.0
+    }
+  ]
+}

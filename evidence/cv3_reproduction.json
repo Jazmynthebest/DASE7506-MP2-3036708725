@@ -1,0 +1,128 @@
+{
+  "folds": 3,
+  "correct": {
+    "compact": 1774,
+    "arithmetic": 1776,
+    "blend": 1782
+  },
+  "n": 2114,
+  "seconds": 49.063194199989084,
+  "fold_records": [
+    {
+      "seconds": 8.97101570002269,
+      "unique_training_questions": 4050,
+      "effective_training_rows": 4050,
+      "residual_unique_questions": 1409,
+      "residual_effective_questions": 1409,
+      "inner_audits": [
+        {
+          "fold": 0,
+          "unique_training_questions": 3580,
+          "effective_training_rows": 3580,
+          "held_questions": 470,
+          "held_question_overlap": 0,
+          "outer_held_question_overlap": 0
+        },
+        {
+          "fold": 1,
+          "unique_training_questions": 3580,
+          "effective_training_rows": 3580,
+          "held_questions": 470,
+          "held_question_overlap": 0,
+          "outer_held_question_overlap": 0
+        },
+        {
+          "fold": 2,
+          "unique_training_questions": 3581,
+          "effective_training_rows": 3581,
+          "held_questions": 469,
+          "held_question_overlap": 0,
+          "outer_held_question_overlap": 0
+        }
+      ],
+      "multiplicity_sha256": "2ebedd633cce328b1ab0c164d3259fc27ff43e18c59e174c645b69c925f2c3a2",
+      "all_learned_stages_resampled": true,
+      "held_early_stopping": false,
+      "validation_read": false,
+      "test_read": false
+    },
+    {
+      "seconds": 8.585895599971991,
+      "unique_training_questions": 4050,
+      "effective_training_rows": 4050,
+      "residual_unique_questions": 1409,
+      "residual_effective_questions": 1409,
+      "inner_audits": [
+        {
+          "fold": 0,
+          "unique_training_questions": 3580,
+          "effective_training_rows": 3580,
+          "held_questions": 470,
+          "held_question_overlap": 0,
+          "outer_held_question_overlap": 0
+        },
+        {
+          "fold": 1,
+          "unique_training_questions": 3580,
+          "effective_training_rows": 3580,
+          "held_questions": 470,
+          "held_question_overlap": 0,
+          "outer_held_question_overlap": 0
+        },
+        {
+          "fold": 2,
+          "unique_training_questions": 3581,
+          "effective_training_rows": 3581,
+          "held_questions": 469,
+          "held_question_overlap": 0,
+          "outer_held_question_overlap": 0
+        }
+      ],
+      "multiplicity_sha256": "2ebedd633cce328b1ab0c164d3259fc27ff43e18c59e174c645b69c925f2c3a2",
+      "all_learned_stages_resampled": true,
+      "held_early_stopping": false,
+      "validation_read": false,
+      "test_read": false
+    },
+    {
+      "seconds": 8.632900100026745,
+      "unique_training_questions": 4051,
+      "effective_training_rows": 4051,
+      "residual_unique_questions": 1410,
+      "residual_effective_questions": 1410,
+      "inner_audits": [
+        {
+          "fold": 0,
+          "unique_training_questions": 3581,
+          "effective_training_rows": 3581,
+          "held_questions": 470,
+          "held_question_overlap": 0,
+          "outer_held_question_overlap": 0
+        },
+        {
+          "fold": 1,
+          "unique_training_questions": 3581,
+          "effective_training_rows": 3581,
+          "held_questions": 470,
+          "held_question_overlap": 0,
+          "outer_held_question_overlap": 0
+        },
+        {
+          "fold": 2,
+          "unique_training_questions": 3581,
+          "effective_training_rows": 3581,
+          "held_questions": 470,
+          "held_question_overlap": 0,
+          "outer_held_question_overlap": 0
+        }
+      ],
+      "multiplicity_sha256": "2ebedd633cce328b1ab0c164d3259fc27ff43e18c59e174c645b69c925f2c3a2",
+      "all_learned_stages_resampled": true,
+      "held_early_stopping": false,
+      "validation_read": false,
+      "test_read": false
+    }
+  ],
+  "validation_read": false,
+  "test_read": false
+}

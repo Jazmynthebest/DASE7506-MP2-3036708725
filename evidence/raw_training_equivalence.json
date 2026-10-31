@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "raw_training_parameter_differences": {
+    "calibration.npz": 0.0,
+    "compact_trees.npz": 0.0,
+    "pair.npz": 0.0,
+    "readout.npz": 0.0,
+    "semantic_probes.npz": 0.0,
+    "trees.npz": 0.0
+  },
+  "score_max_difference": 4.440892098500626e-16,
+  "choices_identical": true,
+  "inference_dependency_numpy_only": true,
+  "only_checkpoint_files_read_at_inference": true,
+  "fresh_ids_batch_invariance": true,
+  "candidate_permutation_invariance": true,
+  "empty_bank": true,
+  "test_read": false
+}

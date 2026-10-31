@@ -1,0 +1,18 @@
+{
+  "method": "condition",
+  "split": "test",
+  "score": {
+    "protocol": "dase7506-mp2-open-hard-verifier-v5",
+    "split": "test",
+    "correct": 396,
+    "n": 467,
+    "accuracy": 84.79657387580299,
+    "scoring_seconds": 0.08945689996471629
+  },
+  "prediction_wall_seconds": 3.474527299986221,
+  "scoring_wall_seconds": 0.8761527999886312,
+  "combined_wall_seconds": 4.350680099974852,
+  "asset_bytes": 156002,
+  "threads": 4,
+  "hardware": "Local Intel Core i5-12500H; eligibility determined on course reference Xeon."
+}

@@ -1,0 +1,33 @@
+{
+  "status": "passed",
+  "checks": [
+    {
+      "method": "compact",
+      "questions": 798,
+      "score_max_error": 0.0,
+      "choices_identical": true,
+      "permuted_input_scores_identical": true,
+      "batch_max_error": 0.0,
+      "boundary_max_error": 0.0,
+      "empty_input": true,
+      "assets_bytes": 42130
+    },
+    {
+      "method": "condition",
+      "questions": 798,
+      "score_max_error": 0.0,
+      "choices_identical": true,
+      "permuted_input_scores_identical": true,
+      "batch_max_error": 0.0,
+      "boundary_max_error": 0.0,
+      "empty_input": true,
+      "assets_bytes": 156002
+    }
+  ],
+  "old_sources_and_checkpoints_unchanged": true,
+  "rounds11_through13_unchanged": true,
+  "validation_inputs_used": true,
+  "validation_references_used": false,
+  "test_inputs_used": false,
+  "test_references_used": false
+}

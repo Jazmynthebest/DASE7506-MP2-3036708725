@@ -1,0 +1,80 @@
+[
+  {
+    "validation_index": 693,
+    "question": "How many legs does a spider have if it has two times more than double the number of legs a human has?",
+    "answers": [
+      "4",
+      "4",
+      "8",
+      "8"
+    ],
+    "selected_answer": "8",
+    "plurality_answer": "4",
+    "selected_text": "Let's solve the problem step by step:\n\n- A human has **2 legs**.\n- A spider has **2 times more** than double the number of legs a human has.\n\nDouble the number of legs a human has:  \n$$ 2 \\times 2 = 4 \\text{ legs} $$\n\nTwo times this number:  \n$$ 2 \\times 4 = 8 \\text{ legs} $$\n\n### Final Answer:\n$$ \\boxed{8} $$"
+  },
+  {
+    "validation_index": 429,
+    "question": "Jack bought 3 books a month at $20 each.  He sells them back at the end of the year for $500.  How much money did he lose?",
+    "answers": [
+      "720",
+      "220",
+      "720",
+      "220"
+    ],
+    "selected_answer": "220",
+    "plurality_answer": "720",
+    "selected_text": "Jack buys 3 books a month for $20 each, so per month he spends:\n\n$$\n3 \\times 20 = 60 \\text{ dollars}\n$$\n\nHe sells them back at the end of the year for $500.\n\nTo find the total amount he lost:\n\n$$\n\\text{Total cost} = 60 \\times 12 = 720 \\text{ dollars}\n$$\n\n$$\n\\text{Total revenue} = 500 \\text{ dollars}\n$$\n\n$$\n\\text{Loss} = 720 - 500 = \\boxed{220}\n$$\n\n**Answer:** $220."
+  },
+  {
+    "validation_index": 729,
+    "question": "Nate is reading a 400-page book. He finished reading 20% of the book. How many pages does he need to read to finish the book?",
+    "answers": [
+      "80",
+      "320",
+      "320",
+      "80"
+    ],
+    "selected_answer": "320",
+    "plurality_answer": "80",
+    "selected_text": "Nate has read **20%** of a **400-page book**, which means he has read:\n\n$$\n0.20 \\times 400 = 80 \\text{ pages}\n$$\n\nTo finish the book, he needs to read the remaining pages:\n\n$$\n400 - 80 = 320 \\text{ pages}\n$$\n\n### Final Answer:\n$$\n\\boxed{320}\n$$"
+  },
+  {
+    "validation_index": 22,
+    "question": "Eddy’s spider plant produces 2 baby plants 2 times a year.  After 4 years, how many baby plants will the mother plant have produced?",
+    "answers": [
+      "8",
+      "16",
+      "4",
+      "4"
+    ],
+    "selected_answer": "16",
+    "plurality_answer": "4",
+    "selected_text": "We are told:\n\n- Eddy’s spider plant produces **2 baby plants 2 times a year**.\n- After **4 years**, how many baby plants will the mother plant have produced?\n\n### Step-by-step:\n\n- Each year, the plant produces 2 baby plants.\n- After 1 year: 2 baby plants  \n- After 2 years: 2 × 2 = 4 baby plants  \n- After 3 years: 2 × 4 = 8 baby plants  \n- After 4 years: 2 × 8 = **16 baby plants**\n\n### Final answer:\n\n#### <numeric answer> 16"
+  },
+  {
+    "validation_index": 423,
+    "question": "Peter and Andrew like to run in the morning.  Peter runs 3 miles more than Andrew's 2 miles.  After 5 days, how many miles have they both run?",
+    "answers": [
+      "INVALID",
+      "INVALID",
+      "7",
+      "35"
+    ],
+    "selected_answer": "35",
+    "plurality_answer": "7",
+    "selected_text": "We are told:\n\n- Peter runs **3 miles more** than Andrew.\n- Andrew runs **2 miles**.\n- They run for **5 days**.\n\nLet’s find the total distance they both run together:\n\n- Andrew’s total distance: $2 \\times 5 = 10$ miles\n- Peter’s total distance: $2 + 3 = 5$ miles per day, so over 5 days: $5 \\times 5 = 25$ miles\n\n**Total distance both run together:**\n\n$$\n10 + 25 = \\boxed{35}\n$$\n\n#### <numeric answer> = **35**."
+  },
+  {
+    "validation_index": 646,
+    "question": "Each week Jaime saves $50. Every two weeks she spends $46 of her savings on a nice lunch with her mum. How long will it take her to save $135?",
+    "answers": [
+      "135/4",
+      "15/4",
+      "5",
+      "135/4"
+    ],
+    "selected_answer": "5",
+    "plurality_answer": "135/4",
+    "selected_text": "Let's solve step by step:\n\n1. **Jamie saves $50 every week**.\n2. **She spends $46 every two weeks**.\n3. **We want to find how many weeks it will take her to save $135**.\n\nLet’s denote the number of weeks as $ w $.\n\n- She saves $50 per week: $ 50w $\n- She spends $46 every 2 weeks: $ 46 \\times \\frac{w}{2} $\n\nSo, the total amount saved is:\n\n$$\n50w - 23w = 27w\n$$\n\nWe want this total to equal $135:\n\n$$\n27w = 135\n$$\n\n$$\nw = \\frac{135}{27} = 5\n$$\n\n### Final Answer:\n$$\n\\boxed{5}\n$$"
+  }
+]

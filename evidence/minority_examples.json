@@ -1,0 +1,67 @@
+[
+  {
+    "validation_index": 22,
+    "question": "Eddy’s spider plant produces 2 baby plants 2 times a year.  After 4 years, how many baby plants will the mother plant have produced?",
+    "answers": [
+      "8",
+      "16",
+      "4",
+      "4"
+    ],
+    "selected_answer": "16",
+    "plurality_answer": "4",
+    "selected_text": "We are told:\n\n- Eddy’s spider plant produces **2 baby plants 2 times a year**.\n- After **4 years**, how many baby plants will the mother plant have produced?\n\n### Step-by-step:\n\n- Each year, the plant produces 2 baby plants.\n- After 1 year: 2 baby plants  \n- After 2 years: 2 × 2 = 4 baby plants  \n- After 3 years: 2 × 4 = 8 baby plants  \n- After 4 years: 2 × 8 = **16 baby plants**\n\n### Final answer:\n\n#### <numeric answer> 16"
+  },
+  {
+    "validation_index": 646,
+    "question": "Each week Jaime saves $50. Every two weeks she spends $46 of her savings on a nice lunch with her mum. How long will it take her to save $135?",
+    "answers": [
+      "135/4",
+      "15/4",
+      "5",
+      "135/4"
+    ],
+    "selected_answer": "5",
+    "plurality_answer": "135/4",
+    "selected_text": "Let's solve step by step:\n\n1. **Jamie saves $50 every week**.\n2. **She spends $46 every two weeks**.\n3. **We want to find how many weeks it will take her to save $135**.\n\nLet’s denote the number of weeks as $ w $.\n\n- She saves $50 per week: $ 50w $\n- She spends $46 every 2 weeks: $ 46 \\times \\frac{w}{2} $\n\nSo, the total amount saved is:\n\n$$\n50w - 23w = 27w\n$$\n\nWe want this total to equal $135:\n\n$$\n27w = 135\n$$\n\n$$\nw = \\frac{135}{27} = 5\n$$\n\n### Final Answer:\n$$\n\\boxed{5}\n$$"
+  },
+  {
+    "validation_index": 792,
+    "question": "Apple can run at a rate of 3 miles per hour. Mac can run at a rate of 4 miles per hour. In minutes, how much faster will Mac run a 24 mile race?",
+    "answers": [
+      "120",
+      "2",
+      "2",
+      "2"
+    ],
+    "selected_answer": "120",
+    "plurality_answer": "2",
+    "selected_text": "We are given:\n\n- Apple's running speed: **3 mph**\n- Mac's running speed: **4 mph**\n- Distance: **24 miles**\n\n### Step 1: Convert the time to minutes\n\nSince Apple runs at **3 mph**, the time it takes for Apple to run 24 miles is:\n\n$$\n\\text{Time (hours)} = \\frac{24}{3} = 8 \\text{ hours}\n$$\n\nConvert hours to minutes:\n\n$$\n8 \\times 60 = 480 \\text{ minutes}\n$$\n\n### Step 2: Calculate the time for Mac\n\nMac runs at **4 mph**, so the time it takes for him to run 24 miles is:\n\n$$\n\\text{Time (hours)} = \\frac{24}{4} = 6 \\text{ hours}\n$$\n\nConvert hours to minutes:\n\n$$\n6 \\times 60 = 360 \\text{ minutes}\n$$\n\n### Step 3: Find the difference in time\n\n$$\n\\text{Time difference} = 480 - 360 = 120 \\text{ minutes}\n$$\n\n### Final Answer:\n\n$$\n\\boxed{120}\n$$"
+  },
+  {
+    "validation_index": 358,
+    "question": "Fred spent half of his allowance going to the movies. He washed the family car and earned 6 dollars. What is his weekly allowance if he ended with 14 dollars?",
+    "answers": [
+      "12",
+      "12",
+      "16",
+      "40"
+    ],
+    "selected_answer": "16",
+    "plurality_answer": "12",
+    "selected_text": "Let's solve step by step:\n\n- Fred earned **6 dollars** from washing the car.\n- He spent **half** of his allowance going to the movies.\n- He ended with **14 dollars**.\n\nLet the total weekly allowance be $ x $.\n\nFred spent half of his allowance:  \n$$ \\frac{x}{2} $$\n\nHe earned **6 dollars**, so he had:  \n$$ \\frac{x}{2} + 6 = 14 $$\n\nSolve for $ x $:\n\n$$\n\\frac{x}{2} + 6 = 14 \\\\\n\\frac{x}{2} = 8 \\\\\nx = 16\n$$\n\n### Final answer:  \n$$\n\\boxed{16}\n$$"
+  },
+  {
+    "validation_index": 166,
+    "question": "Mr. Rainwater has some goats, 9 cows and some chickens. He has 4 times as many goats as cows and 2 times as many goats as chickens. How many chickens does he have?",
+    "answers": [
+      "2",
+      "18",
+      "4",
+      "2"
+    ],
+    "selected_answer": "18",
+    "plurality_answer": "2",
+    "selected_text": "We are given:\n\n- Mr. Rainwater has **9 cows**.\n- He has **4 times as many goats as cows**.\n- He has **2 times as many goats as chickens**.\n\nLet’s define:\n\n- Let $ x $ be the number of chickens.\n- Then, the number of goats is $ 2x $ (since he has twice as many goats as chickens).\n- The number of goats is also $ 4 \\times \\text{number of cows} $, which is $ 4 \\times 9 = 36 $.\n\nSo:\n\n$$\n2x = 36 \\Rightarrow x = \\frac{36}{2} = 18\n$$\n\n### Final Answer:\n$$\n\\boxed{18}\n$$"
+  }
+]

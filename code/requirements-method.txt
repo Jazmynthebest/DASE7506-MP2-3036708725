@@ -1,0 +1,6 @@
+# Python 3.12; fixed scorer and supplied requirements.txt are unchanged.
+numpy==2.3.5
+scipy==1.16.3
+scikit-learn==1.7.2
+lightgbm==4.6.0
+threadpoolctl==3.6.0

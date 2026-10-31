@@ -1,0 +1,10 @@
+{
+  "method": "condition_blend",
+  "structure_weight": 0.5,
+  "rounds": 120,
+  "leaves": 7,
+  "l2": 10,
+  "ridge_alpha": 1000.0,
+  "expanded_parser": true,
+  "selection": "Fixed half blend selected on 3- and 5-fold train CV, before validation blend evaluation."
+}

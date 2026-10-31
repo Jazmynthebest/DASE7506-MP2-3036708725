@@ -1,0 +1,62 @@
+{
+  "prepared_unix": 1793411555.2823906,
+  "method": "code/submission_condition_fast.py",
+  "checkpoint": "code/checkpoints/condition_blend",
+  "freeze": "code/runs/round14/frozen.json",
+  "candidate": {
+    "method": "submission_condition_fast.py",
+    "checkpoint": "checkpoints/condition_blend",
+    "asset_bytes": 156002,
+    "assets_sha256": {
+      "calibration.npz": "4600078e3b59c9b5bab69ebc93a46b168708454504bfa8ba35fe638368bb1c1f",
+      "compact_trees.npz": "746ac3d3bf882045d0b23f548611e46197afc5e5aa980e5889be8452e2c212ff",
+      "config.json": "3c3a7119d15d2880f92621f57b2aec6a61bcad674d845f1c5ff4c8a3bb49755e",
+      "pair.npz": "78f82b88854063b8dbf1ff7340c5b6427c8b4325b0aabdef28db9f0a7559222b",
+      "readout.npz": "0d980ca5d252d0b66ef2b8c559717ebd9389bc0341d11f76a5c8ef51be007425",
+      "semantic_probes.npz": "95088bf1c8ef5e0addc261fe92b266694dcf118dd84a53e1989c97c3b927f624",
+      "trees.npz": "46e80f288d8518520cb2431af16abe7c087c4a43d27b5fa31a44c8352e297963"
+    }
+  },
+  "selection_basis": "Round-six development candidate: CV3 1782 vs compact 1774, CV5 1772 vs 1766, validation 750 vs 748. Round-fourteen acceleration preserves all numerical operations and weights.",
+  "commitment": "This candidate is selected before its first test score. Retain this chosen method irrespective of the result; do not use the result for further tuning or method selection.",
+  "previous_test_results_known": true,
+  "previous_test_results_not_selection_basis": true,
+  "test_references_for": "One final independent scorer invocation only.",
+  "previous_active": {
+    "method": "code/submission_compact_numpy.py",
+    "checkpoint": "code/checkpoints/compact_numpy",
+    "official_test_score": "code/runs/official/compact-numpy-round5-test-score.json",
+    "resources": "code/runs/official/compact-numpy-round5-test-resources.json",
+    "freeze_manifest": "code/runs/round5/frozen_candidates.json",
+    "verification": "code/runs/round5/structure_verification.json",
+    "test_accuracy": 83.94004282655246,
+    "test_correct": 392,
+    "test_n": 467,
+    "cpu_wall_seconds": 2.8710223000016413,
+    "asset_bytes": 42130,
+    "evaluation_command": "python run_round5.py --method compact_numpy --split test",
+    "latest_result_manifest": "ROUND5_RUN.json",
+    "latest_research": "code/runs/round15/result.json",
+    "adoption_basis": "Deploy the inference-equivalent acceleration of the accepted compact model; no learned parameters or selected answers changed.",
+    "accuracy_experiment": "code/submission_structure.py",
+    "report_status": "Report and final submission archive remain pending; this is a method candidate bundle.",
+    "latest_development_candidate": "ROUND6_RUN.json",
+    "latest_inference_optimization": "ROUND14_RUN.json",
+    "inference_equivalent_variants": {
+      "compact": {
+        "method": "code/submission_compact_fast.py",
+        "checkpoint": "code/checkpoints/compact_numpy",
+        "freeze": "code/runs/round14/frozen.json",
+        "test_evaluated": false
+      },
+      "condition": {
+        "method": "code/submission_condition_fast.py",
+        "checkpoint": "code/checkpoints/condition_blend",
+        "freeze": "code/runs/round14/frozen.json",
+        "test_evaluated": false
+      }
+    }
+  },
+  "command": "python run_round14.py --method condition --split test --output runs/round16",
+  "report_status": "Report and submission archive remain pending."
+}

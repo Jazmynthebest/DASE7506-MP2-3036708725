@@ -1,0 +1,220 @@
+{
+  "records": [
+    {
+      "family": "compact",
+      "variant": "original",
+      "repeat": 0,
+      "prediction_wall_seconds": 3.145779600017704,
+      "scoring_wall_seconds": 0.8807837000349537,
+      "combined_wall_seconds": 4.026563300052658,
+      "official_score": {
+        "protocol": "dase7506-mp2-open-hard-verifier-v5",
+        "split": "validation",
+        "correct": 748,
+        "n": 798,
+        "accuracy": 93.734335839599,
+        "scoring_seconds": 0.09221610001986846
+      }
+    },
+    {
+      "family": "compact",
+      "variant": "fast",
+      "repeat": 0,
+      "prediction_wall_seconds": 2.789707899966743,
+      "scoring_wall_seconds": 0.8876770000206307,
+      "combined_wall_seconds": 3.6773848999873735,
+      "official_score": {
+        "protocol": "dase7506-mp2-open-hard-verifier-v5",
+        "split": "validation",
+        "correct": 748,
+        "n": 798,
+        "accuracy": 93.734335839599,
+        "scoring_seconds": 0.08532419998664409
+      }
+    },
+    {
+      "family": "compact",
+      "variant": "fast",
+      "repeat": 1,
+      "prediction_wall_seconds": 2.8550102000008337,
+      "scoring_wall_seconds": 0.9645276000373997,
+      "combined_wall_seconds": 3.8195378000382334,
+      "official_score": {
+        "protocol": "dase7506-mp2-open-hard-verifier-v5",
+        "split": "validation",
+        "correct": 748,
+        "n": 798,
+        "accuracy": 93.734335839599,
+        "scoring_seconds": 0.09250029997201636
+      }
+    },
+    {
+      "family": "compact",
+      "variant": "original",
+      "repeat": 1,
+      "prediction_wall_seconds": 3.027341399982106,
+      "scoring_wall_seconds": 0.9450800999766216,
+      "combined_wall_seconds": 3.9724214999587275,
+      "official_score": {
+        "protocol": "dase7506-mp2-open-hard-verifier-v5",
+        "split": "validation",
+        "correct": 748,
+        "n": 798,
+        "accuracy": 93.734335839599,
+        "scoring_seconds": 0.08616880001500249
+      }
+    },
+    {
+      "family": "compact",
+      "variant": "original",
+      "repeat": 2,
+      "prediction_wall_seconds": 3.011800799984485,
+      "scoring_wall_seconds": 0.9243123999913223,
+      "combined_wall_seconds": 3.936113199975807,
+      "official_score": {
+        "protocol": "dase7506-mp2-open-hard-verifier-v5",
+        "split": "validation",
+        "correct": 748,
+        "n": 798,
+        "accuracy": 93.734335839599,
+        "scoring_seconds": 0.08758999995188788
+      }
+    },
+    {
+      "family": "compact",
+      "variant": "fast",
+      "repeat": 2,
+      "prediction_wall_seconds": 2.9390499999863096,
+      "scoring_wall_seconds": 0.9198414999991655,
+      "combined_wall_seconds": 3.858891499985475,
+      "official_score": {
+        "protocol": "dase7506-mp2-open-hard-verifier-v5",
+        "split": "validation",
+        "correct": 748,
+        "n": 798,
+        "accuracy": 93.734335839599,
+        "scoring_seconds": 0.08613640000112355
+      }
+    },
+    {
+      "family": "condition",
+      "variant": "original",
+      "repeat": 0,
+      "prediction_wall_seconds": 5.148749399988446,
+      "scoring_wall_seconds": 0.9767861999571323,
+      "combined_wall_seconds": 6.125535599945579,
+      "official_score": {
+        "protocol": "dase7506-mp2-open-hard-verifier-v5",
+        "split": "validation",
+        "correct": 750,
+        "n": 798,
+        "accuracy": 93.98496240601504,
+        "scoring_seconds": 0.08409600000595674
+      }
+    },
+    {
+      "family": "condition",
+      "variant": "fast",
+      "repeat": 0,
+      "prediction_wall_seconds": 4.809356100042351,
+      "scoring_wall_seconds": 0.8905916000367142,
+      "combined_wall_seconds": 5.699947700079065,
+      "official_score": {
+        "protocol": "dase7506-mp2-open-hard-verifier-v5",
+        "split": "validation",
+        "correct": 750,
+        "n": 798,
+        "accuracy": 93.98496240601504,
+        "scoring_seconds": 0.08172980003291741
+      }
+    },
+    {
+      "family": "condition",
+      "variant": "fast",
+      "repeat": 1,
+      "prediction_wall_seconds": 4.5895932000130415,
+      "scoring_wall_seconds": 0.9875813000253402,
+      "combined_wall_seconds": 5.577174500038382,
+      "official_score": {
+        "protocol": "dase7506-mp2-open-hard-verifier-v5",
+        "split": "validation",
+        "correct": 750,
+        "n": 798,
+        "accuracy": 93.98496240601504,
+        "scoring_seconds": 0.08276850002584979
+      }
+    },
+    {
+      "family": "condition",
+      "variant": "original",
+      "repeat": 1,
+      "prediction_wall_seconds": 5.2830643999623135,
+      "scoring_wall_seconds": 0.8736993999918923,
+      "combined_wall_seconds": 6.156763799954206,
+      "official_score": {
+        "protocol": "dase7506-mp2-open-hard-verifier-v5",
+        "split": "validation",
+        "correct": 750,
+        "n": 798,
+        "accuracy": 93.98496240601504,
+        "scoring_seconds": 0.08508340001571923
+      }
+    },
+    {
+      "family": "condition",
+      "variant": "original",
+      "repeat": 2,
+      "prediction_wall_seconds": 5.149929100007284,
+      "scoring_wall_seconds": 0.9116002999944612,
+      "combined_wall_seconds": 6.061529400001746,
+      "official_score": {
+        "protocol": "dase7506-mp2-open-hard-verifier-v5",
+        "split": "validation",
+        "correct": 750,
+        "n": 798,
+        "accuracy": 93.98496240601504,
+        "scoring_seconds": 0.09407649998320267
+      }
+    },
+    {
+      "family": "condition",
+      "variant": "fast",
+      "repeat": 2,
+      "prediction_wall_seconds": 4.5851395999779925,
+      "scoring_wall_seconds": 0.8574973999639042,
+      "combined_wall_seconds": 5.442636999941897,
+      "official_score": {
+        "protocol": "dase7506-mp2-open-hard-verifier-v5",
+        "split": "validation",
+        "correct": 750,
+        "n": 798,
+        "accuracy": 93.98496240601504,
+        "scoring_seconds": 0.08382369996979833
+      }
+    }
+  ],
+  "summary": {
+    "compact": {
+      "median_seconds": {
+        "original": 3.9724214999587275,
+        "fast": 3.8195378000382334
+      },
+      "speedup": 1.0400267540012207,
+      "reduction_percent": 3.84862734032837
+    },
+    "condition": {
+      "median_seconds": {
+        "original": 6.125535599945579,
+        "fast": 5.577174500038382
+      },
+      "speedup": 1.098322385269355,
+      "reduction_percent": 8.952051473051093
+    }
+  },
+  "all_choices_identical": true,
+  "validation_used_for_reproduction": true,
+  "test_used": false,
+  "threads": 4,
+  "hardware": "Intel Core i5-12500H",
+  "reference_machine_eligibility_unmeasured": true
+}

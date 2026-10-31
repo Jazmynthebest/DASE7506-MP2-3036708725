@@ -1,0 +1,70 @@
+{
+  "hard_questions": 2114,
+  "correct": 1782,
+  "errors": 332,
+  "by_correct_count": {
+    "1": {
+      "n": 684,
+      "correct": 439,
+      "errors": 245
+    },
+    "2": {
+      "n": 688,
+      "correct": 623,
+      "errors": 65
+    },
+    "3": {
+      "n": 742,
+      "correct": 720,
+      "errors": 22
+    }
+  },
+  "by_answer_pattern": {
+    "2+1+1": {
+      "n": 496,
+      "correct": 393,
+      "errors": 103
+    },
+    "3+1": {
+      "n": 885,
+      "correct": 799,
+      "errors": 86
+    },
+    "1+1+1+1": {
+      "n": 168,
+      "correct": 116,
+      "errors": 52
+    },
+    "2+2": {
+      "n": 228,
+      "correct": 195,
+      "errors": 33
+    },
+    "2+1": {
+      "n": 188,
+      "correct": 169,
+      "errors": 19
+    },
+    "1+1+1": {
+      "n": 112,
+      "correct": 78,
+      "errors": 34
+    },
+    "1+1": {
+      "n": 37,
+      "correct": 32,
+      "errors": 5
+    }
+  },
+  "errors_selecting_unique_majority": 135,
+  "errors_unique_majority_was_correct": 54,
+  "errors_both_compact_and_structure_wrong": 313,
+  "errors_selected_program_unparsed": 139,
+  "errors_all_correct_programs_unparsed": 134,
+  "errors_selected_explicit_arithmetic_flags": 53,
+  "median_error_margin": 0.8906735274940729,
+  "seconds": 0.39489270001649857,
+  "caution": "Automatic flags describe detectable symptoms, not verified semantic causes. Repeated train OOF development is exploratory.",
+  "validation_read": false,
+  "test_read": false
+}

@@ -1,0 +1,303 @@
+{
+  "author": "Huang Leyi",
+  "student_id": "3036708725",
+  "python": "3.12.14",
+  "final_test": {
+    "protocol": "dase7506-mp2-open-hard-verifier-v5",
+    "split": "test",
+    "correct": 396,
+    "n": 467,
+    "accuracy": 84.79657387580299,
+    "scoring_seconds": 0.08945689996471629
+  },
+  "resources": {
+    "method": "condition",
+    "split": "test",
+    "score": {
+      "protocol": "dase7506-mp2-open-hard-verifier-v5",
+      "split": "test",
+      "correct": 396,
+      "n": 467,
+      "accuracy": 84.79657387580299,
+      "scoring_seconds": 0.08945689996471629
+    },
+    "prediction_wall_seconds": 3.474527299986221,
+    "scoring_wall_seconds": 0.8761527999886312,
+    "combined_wall_seconds": 4.350680099974852,
+    "asset_bytes": 156002,
+    "threads": 4,
+    "hardware": "Local Intel Core i5-12500H; eligibility determined on course reference Xeon."
+  },
+  "asset_bytes": 156002,
+  "asset_mib": 0.1487751007080078,
+  "validation": {
+    "correct": 750,
+    "n": 798,
+    "accuracy": 93.98496240601504,
+    "hard_correct": 307,
+    "hard_n": 355,
+    "hard_accuracy": 86.47887323943661
+  },
+  "validation_plurality": {
+    "correct": 688,
+    "n": 798,
+    "accuracy": 86.21553884711778,
+    "hard_correct": 245,
+    "hard_n": 355,
+    "hard_accuracy": 69.01408450704226
+  },
+  "ablations": [
+    {
+      "method": "Compact branch only",
+      "correct": 748,
+      "n": 798,
+      "accuracy": 93.734335839599,
+      "hard_correct": 305,
+      "hard_n": 355,
+      "hard_accuracy": 85.91549295774648
+    },
+    {
+      "method": "Arithmetic branch only",
+      "correct": 748,
+      "n": 798,
+      "accuracy": 93.734335839599,
+      "hard_correct": 305,
+      "hard_n": 355,
+      "hard_accuracy": 85.91549295774648
+    },
+    {
+      "method": "Final blend without answer pooling",
+      "correct": 748,
+      "n": 798,
+      "accuracy": 93.734335839599,
+      "hard_correct": 305,
+      "hard_n": 355,
+      "hard_accuracy": 85.91549295774648
+    },
+    {
+      "method": "Final blend",
+      "correct": 750,
+      "n": 798,
+      "accuracy": 93.98496240601504,
+      "hard_correct": 307,
+      "hard_n": 355,
+      "hard_accuracy": 86.47887323943661
+    }
+  ],
+  "by_correct_count": [
+    {
+      "correct_candidates": 1,
+      "n": 114,
+      "correct": 74,
+      "plurality_correct": 24
+    },
+    {
+      "correct_candidates": 2,
+      "n": 112,
+      "correct": 104,
+      "plurality_correct": 92
+    },
+    {
+      "correct_candidates": 3,
+      "n": 129,
+      "correct": 129,
+      "plurality_correct": 129
+    }
+  ],
+  "error_analysis": {
+    "rescued_plurality": 74,
+    "introduced_errors": 12,
+    "error_count": 48,
+    "margin_quintiles": [
+      {
+        "quintile": 1,
+        "n": 71,
+        "correct": 49,
+        "accuracy": 69.01408450704226,
+        "margin_min": 0.016223152798334972,
+        "margin_max": 1.1674221095040256
+      },
+      {
+        "quintile": 2,
+        "n": 71,
+        "correct": 56,
+        "accuracy": 78.87323943661971,
+        "margin_min": 1.170222796991693,
+        "margin_max": 2.035830328490429
+      },
+      {
+        "quintile": 3,
+        "n": 71,
+        "correct": 65,
+        "accuracy": 91.54929577464789,
+        "margin_min": 2.048017405881138,
+        "margin_max": 2.8881462720039126
+      },
+      {
+        "quintile": 4,
+        "n": 71,
+        "correct": 66,
+        "accuracy": 92.95774647887323,
+        "margin_min": 2.9005418086594785,
+        "margin_max": 3.760255143128698
+      },
+      {
+        "quintile": 5,
+        "n": 71,
+        "correct": 71,
+        "accuracy": 100.0,
+        "margin_min": 3.7686743722912137,
+        "margin_max": 5.28523646346043
+      }
+    ]
+  },
+  "train_cv": {
+    "compact": {
+      "cv3": 1774,
+      "cv5": 1766
+    },
+    "arithmetic": {
+      "cv3": 1776,
+      "cv5": 1769
+    },
+    "blend": {
+      "cv3": 1782,
+      "cv5": 1772
+    },
+    "n": 2114
+  },
+  "majority_test": {
+    "protocol": "dase7506-mp2-open-hard-verifier-v5",
+    "split": "test",
+    "correct": 323,
+    "n": 467,
+    "accuracy": 69.16488222698072,
+    "scoring_seconds": 0.05154600000014398
+  },
+  "compact_test": {
+    "protocol": "dase7506-mp2-open-hard-verifier-v5",
+    "split": "test",
+    "correct": 392,
+    "n": 467,
+    "accuracy": 83.94004282655246,
+    "scoring_seconds": 0.05322780000278726
+  },
+  "parser_coverage": {
+    "original": 7338,
+    "expanded": 11613,
+    "new": 4275,
+    "total": 19020,
+    "retained_exactly": true,
+    "seconds": 15.4591877999992,
+    "numerical_consistency_checked": true,
+    "validation_read": false,
+    "test_read": false
+  },
+  "training_records": {
+    "compact": {
+      "seconds": 18.77682839999943,
+      "asset_bytes": 141358,
+      "validation_read": false,
+      "test_read": false,
+      "calibration_weights": [
+        1.2207651138305664,
+        0.6121254563331604,
+        0.20182721316814423,
+        0.23274871706962585
+      ],
+      "seed": 7506
+    },
+    "arithmetic": {
+      "seconds": 30.413517000000866,
+      "seed": 7506,
+      "teacher_programs": 3880,
+      "n": 4755,
+      "asset_bytes": 132861,
+      "validation_read": false,
+      "test_read": false
+    }
+  },
+  "speed_benchmark": {
+    "compact": {
+      "median_seconds": {
+        "original": 3.9724214999587275,
+        "fast": 3.8195378000382334
+      },
+      "speedup": 1.0400267540012207,
+      "reduction_percent": 3.84862734032837
+    },
+    "condition": {
+      "median_seconds": {
+        "original": 6.125535599945579,
+        "fast": 5.577174500038382
+      },
+      "speedup": 1.098322385269355,
+      "reduction_percent": 8.952051473051093
+    }
+  },
+  "final_selection_protocol": {
+    "prepared_unix": 1793411555.2823906,
+    "method": "code/submission_condition_fast.py",
+    "checkpoint": "code/checkpoints/condition_blend",
+    "freeze": "code/runs/round14/frozen.json",
+    "candidate": {
+      "method": "submission_condition_fast.py",
+      "checkpoint": "checkpoints/condition_blend",
+      "asset_bytes": 156002,
+      "assets_sha256": {
+        "calibration.npz": "4600078e3b59c9b5bab69ebc93a46b168708454504bfa8ba35fe638368bb1c1f",
+        "compact_trees.npz": "746ac3d3bf882045d0b23f548611e46197afc5e5aa980e5889be8452e2c212ff",
+        "config.json": "3c3a7119d15d2880f92621f57b2aec6a61bcad674d845f1c5ff4c8a3bb49755e",
+        "pair.npz": "78f82b88854063b8dbf1ff7340c5b6427c8b4325b0aabdef28db9f0a7559222b",
+        "readout.npz": "0d980ca5d252d0b66ef2b8c559717ebd9389bc0341d11f76a5c8ef51be007425",
+        "semantic_probes.npz": "95088bf1c8ef5e0addc261fe92b266694dcf118dd84a53e1989c97c3b927f624",
+        "trees.npz": "46e80f288d8518520cb2431af16abe7c087c4a43d27b5fa31a44c8352e297963"
+      }
+    },
+    "selection_basis": "Round-six development candidate: CV3 1782 vs compact 1774, CV5 1772 vs 1766, validation 750 vs 748. Round-fourteen acceleration preserves all numerical operations and weights.",
+    "commitment": "This candidate is selected before its first test score. Retain this chosen method irrespective of the result; do not use the result for further tuning or method selection.",
+    "previous_test_results_known": true,
+    "previous_test_results_not_selection_basis": true,
+    "test_references_for": "One final independent scorer invocation only.",
+    "previous_active": {
+      "method": "code/submission_compact_numpy.py",
+      "checkpoint": "code/checkpoints/compact_numpy",
+      "official_test_score": "code/runs/official/compact-numpy-round5-test-score.json",
+      "resources": "code/runs/official/compact-numpy-round5-test-resources.json",
+      "freeze_manifest": "code/runs/round5/frozen_candidates.json",
+      "verification": "code/runs/round5/structure_verification.json",
+      "test_accuracy": 83.94004282655246,
+      "test_correct": 392,
+      "test_n": 467,
+      "cpu_wall_seconds": 2.8710223000016413,
+      "asset_bytes": 42130,
+      "evaluation_command": "python run_round5.py --method compact_numpy --split test",
+      "latest_result_manifest": "ROUND5_RUN.json",
+      "latest_research": "code/runs/round15/result.json",
+      "adoption_basis": "Deploy the inference-equivalent acceleration of the accepted compact model; no learned parameters or selected answers changed.",
+      "accuracy_experiment": "code/submission_structure.py",
+      "report_status": "Report and final submission archive remain pending; this is a method candidate bundle.",
+      "latest_development_candidate": "ROUND6_RUN.json",
+      "latest_inference_optimization": "ROUND14_RUN.json",
+      "inference_equivalent_variants": {
+        "compact": {
+          "method": "code/submission_compact_fast.py",
+          "checkpoint": "code/checkpoints/compact_numpy",
+          "freeze": "code/runs/round14/frozen.json",
+          "test_evaluated": false
+        },
+        "condition": {
+          "method": "code/submission_condition_fast.py",
+          "checkpoint": "code/checkpoints/condition_blend",
+          "freeze": "code/runs/round14/frozen.json",
+          "test_evaluated": false
+        }
+      }
+    },
+    "command": "python run_round14.py --method condition --split test --output runs/round16",
+    "report_status": "Report and submission archive remain pending."
+  },
+  "historical_test_results_known": true,
+  "test_used_for_tuning": false,
+  "scope": "Post-freeze report analysis of validation predictions plus existing aggregate official test scores. No model fitting or parameter changes."
+}

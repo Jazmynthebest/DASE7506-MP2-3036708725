@@ -1,0 +1,55 @@
+{
+  "status": "passed",
+  "timings": [
+    {
+      "command": [
+        "train_condition.py",
+        "--output",
+        "runs\\training_reproduction_work\\structure"
+      ],
+      "seconds": 41.892004600027576
+    },
+    {
+      "command": [
+        "train_compact.py",
+        "--output",
+        "runs\\training_reproduction_work\\compact_raw"
+      ],
+      "seconds": 27.00674829998752
+    },
+    {
+      "command": [
+        "convert_compact_numpy.py",
+        "--source",
+        "runs\\training_reproduction_work\\compact_raw",
+        "--output",
+        "runs\\training_reproduction_work\\compact_numpy"
+      ],
+      "seconds": 6.220459599979222
+    },
+    {
+      "command": [
+        "build_condition_blend.py",
+        "--structure",
+        "runs\\training_reproduction_work\\structure",
+        "--compact",
+        "runs\\training_reproduction_work\\compact_numpy",
+        "--output",
+        "checkpoints\\retrained"
+      ],
+      "seconds": 0.9324877000181004
+    }
+  ],
+  "total_process_seconds": 76.05170020001242,
+  "parameter_max_differences": {
+    "calibration.npz": 0.0,
+    "compact_trees.npz": 0.0,
+    "pair.npz": 0.0,
+    "readout.npz": 0.0,
+    "semantic_probes.npz": 0.0,
+    "trees.npz": 0.0
+  },
+  "seed": 7506,
+  "validation_read": false,
+  "test_read": false
+}

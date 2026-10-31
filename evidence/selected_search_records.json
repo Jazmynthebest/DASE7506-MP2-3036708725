@@ -1,0 +1,1429 @@
+{
+  "scope": "Selected later development families; output configurations include controls, epoch choices and fusion settings. Not the entire project search.",
+  "hardware": "Local Intel Core i5-12500H; CPU only; four threads per experiment.",
+  "note": "Historical earlier test scores were known. These families did not use validation/test for training or screening.",
+  "families": [
+    {
+      "family": "Units, target quantities and bindings",
+      "original_record": "code/runs/round7/result.json",
+      "screened_outputs": 6,
+      "best_cv3": 1779,
+      "trials": [
+        {
+          "name": "units_cv3",
+          "kind": "units",
+          "folds": 3,
+          "metrics": {
+            "correct": 1776,
+            "n": 2114,
+            "loss": 0.4009043574333191,
+            "single_correct": 436,
+            "single_n": 684
+          },
+          "structure_only": {
+            "correct": 1770,
+            "n": 2114,
+            "loss": 0.3969295918941498,
+            "single_correct": 432,
+            "single_n": 684
+          },
+          "seconds": 1.9334291999984998,
+          "validation_read": false,
+          "test_read": false,
+          "feature_dimensions": 44
+        },
+        {
+          "name": "target_cv3",
+          "kind": "target",
+          "folds": 3,
+          "metrics": {
+            "correct": 1771,
+            "n": 2114,
+            "loss": 0.40188494324684143,
+            "single_correct": 434,
+            "single_n": 684
+          },
+          "structure_only": {
+            "correct": 1767,
+            "n": 2114,
+            "loss": 0.39911767840385437,
+            "single_correct": 432,
+            "single_n": 684
+          },
+          "seconds": 1.849000200003502,
+          "validation_read": false,
+          "test_read": false,
+          "feature_dimensions": 92
+        },
+        {
+          "name": "relations_cv3",
+          "kind": "relations",
+          "folds": 3,
+          "metrics": {
+            "correct": 1778,
+            "n": 2114,
+            "loss": 0.4014361500740051,
+            "single_correct": 433,
+            "single_n": 684
+          },
+          "structure_only": {
+            "correct": 1769,
+            "n": 2114,
+            "loss": 0.3997032940387726,
+            "single_correct": 430,
+            "single_n": 684
+          },
+          "seconds": 1.970232699997723,
+          "validation_read": false,
+          "test_read": false,
+          "feature_dimensions": 76
+        },
+        {
+          "name": "all_cv3",
+          "kind": "all",
+          "folds": 3,
+          "metrics": {
+            "correct": 1772,
+            "n": 2114,
+            "loss": 0.40254202485084534,
+            "single_correct": 431,
+            "single_n": 684
+          },
+          "structure_only": {
+            "correct": 1768,
+            "n": 2114,
+            "loss": 0.4018283784389496,
+            "single_correct": 431,
+            "single_n": 684
+          },
+          "seconds": 2.064201500004856,
+          "validation_read": false,
+          "test_read": false,
+          "feature_dimensions": 212
+        },
+        {
+          "name": "bindings_cv3",
+          "kind": "bindings",
+          "folds": 3,
+          "metrics": {
+            "correct": 1776,
+            "n": 2114,
+            "loss": 0.3960309624671936,
+            "single_correct": 433,
+            "single_n": 684
+          },
+          "structure_only": {
+            "correct": 1777,
+            "n": 2114,
+            "loss": 0.38970065116882324,
+            "single_correct": 434,
+            "single_n": 684
+          },
+          "seconds": 2.4547024999919813,
+          "validation_read": false,
+          "test_read": false,
+          "feature_dimensions": 90
+        },
+        {
+          "name": "bindings_relations_cv3",
+          "kind": "bindings_relations",
+          "folds": 3,
+          "metrics": {
+            "correct": 1779,
+            "n": 2114,
+            "loss": 0.39659786224365234,
+            "single_correct": 435,
+            "single_n": 684
+          },
+          "structure_only": {
+            "correct": 1780,
+            "n": 2114,
+            "loss": 0.39226436614990234,
+            "single_correct": 436,
+            "single_n": 684
+          },
+          "seconds": 2.620894000006956,
+          "validation_read": false,
+          "test_read": false,
+          "feature_dimensions": 166
+        }
+      ],
+      "costs": {
+        "cost": {
+          "new_label_free_feature_seconds": 45.36859529999492,
+          "six_cv_fit_seconds": 12.892460100003518,
+          "note": "Uses existing nested base-model caches; figures exclude preparation of those earlier caches and agent work."
+        }
+      },
+      "cost_scope": "Cached-stage timings, not full raw-data wall time.",
+      "decision": "All six prespecified half-blend variants failed the training CV3 accuracy screen; no five-fold selection or validation/test evaluation was performed.",
+      "validation_read": false,
+      "test_read": false
+    },
+    {
+      "family": "Reference language, residual resampling and covariance",
+      "original_record": "code/runs/round8/result.json",
+      "screened_outputs": 12,
+      "best_cv3": 1781,
+      "trials": [
+        {
+          "family": "reference_language",
+          "name": "reference_words_a100.0_cv3",
+          "metrics": {
+            "correct": 1771,
+            "n": 2114,
+            "loss": 0.40293771028518677,
+            "single_correct": 433,
+            "single_n": 684
+          },
+          "control": false
+        },
+        {
+          "family": "reference_language",
+          "name": "reference_words_a1000.0_cv3",
+          "metrics": {
+            "correct": 1773,
+            "n": 2114,
+            "loss": 0.4026879072189331,
+            "single_correct": 434,
+            "single_n": 684
+          },
+          "control": false
+        },
+        {
+          "family": "reference_language",
+          "name": "reference_math_language_a100.0_cv3",
+          "metrics": {
+            "correct": 1772,
+            "n": 2114,
+            "loss": 0.4013974964618683,
+            "single_correct": 432,
+            "single_n": 684
+          },
+          "control": false
+        },
+        {
+          "family": "reference_language",
+          "name": "reference_math_language_a1000.0_cv3",
+          "metrics": {
+            "correct": 1775,
+            "n": 2114,
+            "loss": 0.40069180727005005,
+            "single_correct": 434,
+            "single_n": 684
+          },
+          "control": false
+        },
+        {
+          "family": "residual_ensemble",
+          "name": "resampling_seeds_cv3",
+          "metrics": {
+            "correct": 1776,
+            "n": 2114,
+            "loss": 0.40110868215560913,
+            "single_correct": 437,
+            "single_n": 684
+          },
+          "control": false
+        },
+        {
+          "family": "residual_ensemble",
+          "name": "resampling_bootstrap_cv3",
+          "metrics": {
+            "correct": 1779,
+            "n": 2114,
+            "loss": 0.40258264541625977,
+            "single_correct": 437,
+            "single_n": 684
+          },
+          "control": false
+        },
+        {
+          "family": "covariance",
+          "name": "covariance_s0.5_cv3",
+          "metrics": {
+            "correct": 1775,
+            "n": 2114,
+            "loss": 0.40116143226623535,
+            "single_correct": 434,
+            "single_n": 684
+          },
+          "control": false
+        },
+        {
+          "family": "covariance",
+          "name": "covariance_s0.9_cv3",
+          "metrics": {
+            "correct": 1776,
+            "n": 2114,
+            "loss": 0.4012155532836914,
+            "single_correct": 434,
+            "single_n": 684
+          },
+          "control": false
+        },
+        {
+          "family": "covariance",
+          "name": "covariance_s1.0_cv3",
+          "metrics": {
+            "correct": 1771,
+            "n": 2114,
+            "loss": 0.4016069769859314,
+            "single_correct": 432,
+            "single_n": 684
+          },
+          "control": true
+        },
+        {
+          "family": "replace_prior",
+          "name": "replace_prior_s0.5_cv3",
+          "metrics": {
+            "correct": 1775,
+            "n": 2114,
+            "loss": 0.3982609510421753,
+            "single_correct": 434,
+            "single_n": 684
+          },
+          "control": false
+        },
+        {
+          "family": "replace_prior",
+          "name": "replace_prior_s0.9_cv3",
+          "metrics": {
+            "correct": 1779,
+            "n": 2114,
+            "loss": 0.4002225399017334,
+            "single_correct": 439,
+            "single_n": 684
+          },
+          "control": false
+        },
+        {
+          "family": "replace_prior",
+          "name": "replace_prior_s1.0_cv3",
+          "metrics": {
+            "correct": 1781,
+            "n": 2114,
+            "loss": 0.4005194306373596,
+            "single_correct": 439,
+            "single_n": 684
+          },
+          "control": true
+        }
+      ],
+      "costs": {
+        "preparation_seconds": 66.03473059999851,
+        "residual_resampling_seconds": [
+          10.42744539999967,
+          10.302685200000269
+        ]
+      },
+      "cost_scope": "Timings are per-stage and reuse earlier nested base-feature caches; not complete experiment wall time.",
+      "decision": "No candidate passed the fixed CV3 accuracy screen. No validation/test evaluation or checkpoint replacement.",
+      "validation_read": false,
+      "test_read": false
+    },
+    {
+      "family": "Small neural / attention models with pointwise controls",
+      "original_record": "code/runs/round9/result.json",
+      "screened_outputs": 24,
+      "best_cv3": 1779,
+      "trials": [
+        {
+          "name": "point_h32",
+          "attention": false,
+          "hidden": 32,
+          "epoch": 8,
+          "blend": "replacement",
+          "metrics": {
+            "correct": 1766,
+            "n": 2114,
+            "loss": 0.4026145040988922,
+            "single_correct": 428,
+            "single_n": 684
+          },
+          "neural_only": {
+            "correct": 1758,
+            "n": 2114,
+            "loss": 0.41234785318374634,
+            "single_correct": 423,
+            "single_n": 684
+          }
+        },
+        {
+          "name": "point_h32",
+          "attention": false,
+          "hidden": 32,
+          "epoch": 8,
+          "blend": "augmentation",
+          "metrics": {
+            "correct": 1772,
+            "n": 2114,
+            "loss": 0.398328572511673,
+            "single_correct": 433,
+            "single_n": 684
+          },
+          "neural_only": {
+            "correct": 1758,
+            "n": 2114,
+            "loss": 0.41234785318374634,
+            "single_correct": 423,
+            "single_n": 684
+          }
+        },
+        {
+          "name": "point_h32",
+          "attention": false,
+          "hidden": 32,
+          "epoch": 16,
+          "blend": "replacement",
+          "metrics": {
+            "correct": 1764,
+            "n": 2114,
+            "loss": 0.4177984595298767,
+            "single_correct": 434,
+            "single_n": 684
+          },
+          "neural_only": {
+            "correct": 1743,
+            "n": 2114,
+            "loss": 0.48819661140441895,
+            "single_correct": 431,
+            "single_n": 684
+          }
+        },
+        {
+          "name": "point_h32",
+          "attention": false,
+          "hidden": 32,
+          "epoch": 16,
+          "blend": "augmentation",
+          "metrics": {
+            "correct": 1772,
+            "n": 2114,
+            "loss": 0.39832204580307007,
+            "single_correct": 435,
+            "single_n": 684
+          },
+          "neural_only": {
+            "correct": 1743,
+            "n": 2114,
+            "loss": 0.48819661140441895,
+            "single_correct": 431,
+            "single_n": 684
+          }
+        },
+        {
+          "name": "point_h32",
+          "attention": false,
+          "hidden": 32,
+          "epoch": 32,
+          "blend": "replacement",
+          "metrics": {
+            "correct": 1760,
+            "n": 2114,
+            "loss": 0.44958218932151794,
+            "single_correct": 429,
+            "single_n": 684
+          },
+          "neural_only": {
+            "correct": 1743,
+            "n": 2114,
+            "loss": 0.5783359408378601,
+            "single_correct": 424,
+            "single_n": 684
+          }
+        },
+        {
+          "name": "point_h32",
+          "attention": false,
+          "hidden": 32,
+          "epoch": 32,
+          "blend": "augmentation",
+          "metrics": {
+            "correct": 1778,
+            "n": 2114,
+            "loss": 0.4071407616138458,
+            "single_correct": 441,
+            "single_n": 684
+          },
+          "neural_only": {
+            "correct": 1743,
+            "n": 2114,
+            "loss": 0.5783359408378601,
+            "single_correct": 424,
+            "single_n": 684
+          }
+        },
+        {
+          "name": "attention_h32",
+          "attention": true,
+          "hidden": 32,
+          "epoch": 8,
+          "blend": "replacement",
+          "metrics": {
+            "correct": 1768,
+            "n": 2114,
+            "loss": 0.4033009707927704,
+            "single_correct": 430,
+            "single_n": 684
+          },
+          "neural_only": {
+            "correct": 1757,
+            "n": 2114,
+            "loss": 0.4222222566604614,
+            "single_correct": 430,
+            "single_n": 684
+          }
+        },
+        {
+          "name": "attention_h32",
+          "attention": true,
+          "hidden": 32,
+          "epoch": 8,
+          "blend": "augmentation",
+          "metrics": {
+            "correct": 1769,
+            "n": 2114,
+            "loss": 0.3974316120147705,
+            "single_correct": 432,
+            "single_n": 684
+          },
+          "neural_only": {
+            "correct": 1757,
+            "n": 2114,
+            "loss": 0.4222222566604614,
+            "single_correct": 430,
+            "single_n": 684
+          }
+        },
+        {
+          "name": "attention_h32",
+          "attention": true,
+          "hidden": 32,
+          "epoch": 16,
+          "blend": "replacement",
+          "metrics": {
+            "correct": 1755,
+            "n": 2114,
+            "loss": 0.47678688168525696,
+            "single_correct": 431,
+            "single_n": 684
+          },
+          "neural_only": {
+            "correct": 1714,
+            "n": 2114,
+            "loss": 0.6625934839248657,
+            "single_correct": 420,
+            "single_n": 684
+          }
+        },
+        {
+          "name": "attention_h32",
+          "attention": true,
+          "hidden": 32,
+          "epoch": 16,
+          "blend": "augmentation",
+          "metrics": {
+            "correct": 1772,
+            "n": 2114,
+            "loss": 0.41412949562072754,
+            "single_correct": 435,
+            "single_n": 684
+          },
+          "neural_only": {
+            "correct": 1714,
+            "n": 2114,
+            "loss": 0.6625934839248657,
+            "single_correct": 420,
+            "single_n": 684
+          }
+        },
+        {
+          "name": "attention_h32",
+          "attention": true,
+          "hidden": 32,
+          "epoch": 32,
+          "blend": "replacement",
+          "metrics": {
+            "correct": 1742,
+            "n": 2114,
+            "loss": 0.5284985899925232,
+            "single_correct": 421,
+            "single_n": 684
+          },
+          "neural_only": {
+            "correct": 1724,
+            "n": 2114,
+            "loss": 0.7926644682884216,
+            "single_correct": 420,
+            "single_n": 684
+          }
+        },
+        {
+          "name": "attention_h32",
+          "attention": true,
+          "hidden": 32,
+          "epoch": 32,
+          "blend": "augmentation",
+          "metrics": {
+            "correct": 1758,
+            "n": 2114,
+            "loss": 0.43044227361679077,
+            "single_correct": 427,
+            "single_n": 684
+          },
+          "neural_only": {
+            "correct": 1724,
+            "n": 2114,
+            "loss": 0.7926644682884216,
+            "single_correct": 420,
+            "single_n": 684
+          }
+        },
+        {
+          "name": "point_h64",
+          "attention": false,
+          "hidden": 64,
+          "epoch": 8,
+          "blend": "replacement",
+          "metrics": {
+            "correct": 1770,
+            "n": 2114,
+            "loss": 0.40184226632118225,
+            "single_correct": 432,
+            "single_n": 684
+          },
+          "neural_only": {
+            "correct": 1759,
+            "n": 2114,
+            "loss": 0.4172838628292084,
+            "single_correct": 427,
+            "single_n": 684
+          }
+        },
+        {
+          "name": "point_h64",
+          "attention": false,
+          "hidden": 64,
+          "epoch": 8,
+          "blend": "augmentation",
+          "metrics": {
+            "correct": 1775,
+            "n": 2114,
+            "loss": 0.39709848165512085,
+            "single_correct": 435,
+            "single_n": 684
+          },
+          "neural_only": {
+            "correct": 1759,
+            "n": 2114,
+            "loss": 0.4172838628292084,
+            "single_correct": 427,
+            "single_n": 684
+          }
+        },
+        {
+          "name": "point_h64",
+          "attention": false,
+          "hidden": 64,
+          "epoch": 16,
+          "blend": "replacement",
+          "metrics": {
+            "correct": 1761,
+            "n": 2114,
+            "loss": 0.4313023090362549,
+            "single_correct": 429,
+            "single_n": 684
+          },
+          "neural_only": {
+            "correct": 1728,
+            "n": 2114,
+            "loss": 0.5316216349601746,
+            "single_correct": 414,
+            "single_n": 684
+          }
+        },
+        {
+          "name": "point_h64",
+          "attention": false,
+          "hidden": 64,
+          "epoch": 16,
+          "blend": "augmentation",
+          "metrics": {
+            "correct": 1779,
+            "n": 2114,
+            "loss": 0.40074771642684937,
+            "single_correct": 441,
+            "single_n": 684
+          },
+          "neural_only": {
+            "correct": 1728,
+            "n": 2114,
+            "loss": 0.5316216349601746,
+            "single_correct": 414,
+            "single_n": 684
+          }
+        },
+        {
+          "name": "point_h64",
+          "attention": false,
+          "hidden": 64,
+          "epoch": 32,
+          "blend": "replacement",
+          "metrics": {
+            "correct": 1759,
+            "n": 2114,
+            "loss": 0.4591473639011383,
+            "single_correct": 430,
+            "single_n": 684
+          },
+          "neural_only": {
+            "correct": 1731,
+            "n": 2114,
+            "loss": 0.6057146191596985,
+            "single_correct": 415,
+            "single_n": 684
+          }
+        },
+        {
+          "name": "point_h64",
+          "attention": false,
+          "hidden": 64,
+          "epoch": 32,
+          "blend": "augmentation",
+          "metrics": {
+            "correct": 1772,
+            "n": 2114,
+            "loss": 0.40900734066963196,
+            "single_correct": 436,
+            "single_n": 684
+          },
+          "neural_only": {
+            "correct": 1731,
+            "n": 2114,
+            "loss": 0.6057146191596985,
+            "single_correct": 415,
+            "single_n": 684
+          }
+        },
+        {
+          "name": "attention_h64",
+          "attention": true,
+          "hidden": 64,
+          "epoch": 8,
+          "blend": "replacement",
+          "metrics": {
+            "correct": 1774,
+            "n": 2114,
+            "loss": 0.4070034325122833,
+            "single_correct": 434,
+            "single_n": 684
+          },
+          "neural_only": {
+            "correct": 1755,
+            "n": 2114,
+            "loss": 0.4431488513946533,
+            "single_correct": 427,
+            "single_n": 684
+          }
+        },
+        {
+          "name": "attention_h64",
+          "attention": true,
+          "hidden": 64,
+          "epoch": 8,
+          "blend": "augmentation",
+          "metrics": {
+            "correct": 1775,
+            "n": 2114,
+            "loss": 0.3969780206680298,
+            "single_correct": 433,
+            "single_n": 684
+          },
+          "neural_only": {
+            "correct": 1755,
+            "n": 2114,
+            "loss": 0.4431488513946533,
+            "single_correct": 427,
+            "single_n": 684
+          }
+        },
+        {
+          "name": "attention_h64",
+          "attention": true,
+          "hidden": 64,
+          "epoch": 16,
+          "blend": "replacement",
+          "metrics": {
+            "correct": 1737,
+            "n": 2114,
+            "loss": 0.5034827589988708,
+            "single_correct": 418,
+            "single_n": 684
+          },
+          "neural_only": {
+            "correct": 1708,
+            "n": 2114,
+            "loss": 0.7254153490066528,
+            "single_correct": 412,
+            "single_n": 684
+          }
+        },
+        {
+          "name": "attention_h64",
+          "attention": true,
+          "hidden": 64,
+          "epoch": 16,
+          "blend": "augmentation",
+          "metrics": {
+            "correct": 1764,
+            "n": 2114,
+            "loss": 0.4222450256347656,
+            "single_correct": 426,
+            "single_n": 684
+          },
+          "neural_only": {
+            "correct": 1708,
+            "n": 2114,
+            "loss": 0.7254153490066528,
+            "single_correct": 412,
+            "single_n": 684
+          }
+        },
+        {
+          "name": "attention_h64",
+          "attention": true,
+          "hidden": 64,
+          "epoch": 32,
+          "blend": "replacement",
+          "metrics": {
+            "correct": 1737,
+            "n": 2114,
+            "loss": 0.5498740673065186,
+            "single_correct": 409,
+            "single_n": 684
+          },
+          "neural_only": {
+            "correct": 1719,
+            "n": 2114,
+            "loss": 0.8335347771644592,
+            "single_correct": 412,
+            "single_n": 684
+          }
+        },
+        {
+          "name": "attention_h64",
+          "attention": true,
+          "hidden": 64,
+          "epoch": 32,
+          "blend": "augmentation",
+          "metrics": {
+            "correct": 1772,
+            "n": 2114,
+            "loss": 0.43875768780708313,
+            "single_correct": 434,
+            "single_n": 684
+          },
+          "neural_only": {
+            "correct": 1719,
+            "n": 2114,
+            "loss": 0.8335347771644592,
+            "single_correct": 412,
+            "single_n": 684
+          }
+        }
+      ],
+      "costs": {
+        "training_seconds": 121.63968960000057
+      },
+      "cost_scope": "Training-stage timings reuse earlier nested feature caches; not full raw preprocessing wall time.",
+      "decision": "No attention trial exceeded the predeclared three-fold baseline. Five-fold confirmation and validation evaluation were therefore not run.",
+      "validation_read": false,
+      "test_read": false
+    },
+    {
+      "family": "Full-pipeline question bootstrap",
+      "original_record": "code/runs/round10/result.json",
+      "screened_outputs": 4,
+      "best_cv3": 1782,
+      "trials": [
+        {
+          "mode": "poisson",
+          "name": "equal4",
+          "bootstrap_weight": 0.75,
+          "metrics": {
+            "correct": 1764,
+            "n": 2114,
+            "loss": 0.40646305680274963,
+            "single_correct": 428,
+            "single_n": 684
+          }
+        },
+        {
+          "mode": "poisson",
+          "name": "half_prior",
+          "bootstrap_weight": 0.5,
+          "metrics": {
+            "correct": 1773,
+            "n": 2114,
+            "loss": 0.4036138951778412,
+            "single_correct": 431,
+            "single_n": 684
+          }
+        },
+        {
+          "mode": "mild",
+          "name": "equal4",
+          "bootstrap_weight": 0.75,
+          "metrics": {
+            "correct": 1782,
+            "n": 2114,
+            "loss": 0.40079250931739807,
+            "single_correct": 440,
+            "single_n": 684
+          }
+        },
+        {
+          "mode": "mild",
+          "name": "half_prior",
+          "bootstrap_weight": 0.5,
+          "metrics": {
+            "correct": 1781,
+            "n": 2114,
+            "loss": 0.4004496932029724,
+            "single_correct": 440,
+            "single_n": 684
+          }
+        }
+      ],
+      "costs": {
+        "training_seconds": 152.9461169000133
+      },
+      "cost_scope": "Per-stage timings reuse fixed raw-input features and deterministic parsed teacher/candidate vectors from previous rounds; not complete raw preprocessing wall time.",
+      "decision": "Neither family passed the predeclared CV3 accuracy threshold. No five-fold confirmation, validation/test evaluation or replacement of any frozen submission checkpoint.",
+      "validation_read": false,
+      "test_read": false
+    },
+    {
+      "family": "Question-only arithmetic rules",
+      "original_record": "code/runs/round11/result.json",
+      "screened_outputs": 4,
+      "best_cv3": 1782,
+      "trials": [
+        {
+          "name": "features_w0.5_cv3",
+          "kind": "features",
+          "weight": 0.5,
+          "metrics": {
+            "correct": 1779,
+            "n": 2114,
+            "loss": 0.4007466733455658,
+            "single_correct": 438,
+            "single_n": 684
+          },
+          "changes": {
+            "fixed": 0,
+            "broken": 3
+          }
+        },
+        {
+          "name": "features_w1.0_cv3",
+          "kind": "features",
+          "weight": 1.0,
+          "metrics": {
+            "correct": 1774,
+            "n": 2114,
+            "loss": 0.40106460452079773,
+            "single_correct": 436,
+            "single_n": 684
+          },
+          "changes": {
+            "fixed": 0,
+            "broken": 8
+          }
+        },
+        {
+          "name": "softvote_w0.25_cv3",
+          "kind": "softvote",
+          "weight": 0.25,
+          "metrics": {
+            "correct": 1782,
+            "n": 2114,
+            "loss": 0.40050774812698364,
+            "single_correct": 439,
+            "single_n": 684
+          },
+          "changes": {
+            "fixed": 0,
+            "broken": 0
+          }
+        },
+        {
+          "name": "softvote_w0.5_cv3",
+          "kind": "softvote",
+          "weight": 0.5,
+          "metrics": {
+            "correct": 1782,
+            "n": 2114,
+            "loss": 0.4005221724510193,
+            "single_correct": 439,
+            "single_n": 684
+          },
+          "changes": {
+            "fixed": 0,
+            "broken": 0
+          }
+        }
+      ],
+      "costs": {
+        "seconds": 2.0917714000097476,
+        "feature_extraction_seconds": 2.158963699999731
+      },
+      "cost_scope": "Cached-stage timings, not full raw-data wall time.",
+      "decision": "No strict CV3 improvement. No CV5, validation or test evaluation; keep frozen round-six candidate.",
+      "validation_read": false,
+      "test_read": false
+    },
+    {
+      "family": "Alternative group objectives",
+      "original_record": "code/runs/round12/result.json",
+      "screened_outputs": 8,
+      "best_cv3": 1775,
+      "trials": [
+        {
+          "name": "single2_w0.5_cv3",
+          "kind": "single2",
+          "weight": 0.5,
+          "metrics": {
+            "correct": 1772,
+            "n": 2114,
+            "loss": 0.40104883909225464,
+            "single_correct": 442,
+            "single_n": 684
+          },
+          "changes": {
+            "fixed": 6,
+            "broken": 16
+          }
+        },
+        {
+          "name": "single2_w1.0_cv3",
+          "kind": "single2",
+          "weight": 1.0,
+          "metrics": {
+            "correct": 1766,
+            "n": 2114,
+            "loss": 0.40327924489974976,
+            "single_correct": 445,
+            "single_n": 684
+          },
+          "changes": {
+            "fixed": 11,
+            "broken": 27
+          }
+        },
+        {
+          "name": "robust_w0.5_cv3",
+          "kind": "robust",
+          "weight": 0.5,
+          "metrics": {
+            "correct": 1773,
+            "n": 2114,
+            "loss": 0.40391576290130615,
+            "single_correct": 434,
+            "single_n": 684
+          },
+          "changes": {
+            "fixed": 5,
+            "broken": 14
+          }
+        },
+        {
+          "name": "robust_w1.0_cv3",
+          "kind": "robust",
+          "weight": 1.0,
+          "metrics": {
+            "correct": 1766,
+            "n": 2114,
+            "loss": 0.411467969417572,
+            "single_correct": 429,
+            "single_n": 684
+          },
+          "changes": {
+            "fixed": 11,
+            "broken": 27
+          }
+        },
+        {
+          "name": "focal1_w0.5_cv3",
+          "kind": "focal1",
+          "weight": 0.5,
+          "metrics": {
+            "correct": 1775,
+            "n": 2114,
+            "loss": 0.40304672718048096,
+            "single_correct": 436,
+            "single_n": 684
+          },
+          "changes": {
+            "fixed": 2,
+            "broken": 9
+          }
+        },
+        {
+          "name": "focal1_w1.0_cv3",
+          "kind": "focal1",
+          "weight": 1.0,
+          "metrics": {
+            "correct": 1773,
+            "n": 2114,
+            "loss": 0.4087989032268524,
+            "single_correct": 436,
+            "single_n": 684
+          },
+          "changes": {
+            "fixed": 7,
+            "broken": 16
+          }
+        },
+        {
+          "name": "focal2_w0.5_cv3",
+          "kind": "focal2",
+          "weight": 0.5,
+          "metrics": {
+            "correct": 1775,
+            "n": 2114,
+            "loss": 0.4049822986125946,
+            "single_correct": 437,
+            "single_n": 684
+          },
+          "changes": {
+            "fixed": 4,
+            "broken": 11
+          }
+        },
+        {
+          "name": "focal2_w1.0_cv3",
+          "kind": "focal2",
+          "weight": 1.0,
+          "metrics": {
+            "correct": 1775,
+            "n": 2114,
+            "loss": 0.41677483916282654,
+            "single_correct": 436,
+            "single_n": 684
+          },
+          "changes": {
+            "fixed": 14,
+            "broken": 21
+          }
+        }
+      ],
+      "costs": {
+        "seconds": 12.72032110003056
+      },
+      "cost_scope": "Training timings reuse cached cross-fitted features and initial logits; not raw end-to-end training costs.",
+      "decision": "All eight fixed configurations fail the strict CV3 threshold. No CV5, validation or test evaluation; keep frozen round-six candidate.",
+      "validation_read": false,
+      "test_read": false
+    },
+    {
+      "family": "Algebraic sensitivity profiles",
+      "original_record": "code/runs/round13/result.json",
+      "screened_outputs": 8,
+      "best_cv3": 1778,
+      "trials": [
+        {
+          "name": "teacher_invariant_w0.5_cv3",
+          "profile": "invariant",
+          "supervision": "teacher",
+          "weight": 0.5,
+          "metrics": {
+            "correct": 1774,
+            "n": 2114,
+            "loss": 0.40040123462677,
+            "single_correct": 436,
+            "single_n": 684
+          },
+          "changes": {
+            "fixed": 0,
+            "broken": 8
+          }
+        },
+        {
+          "name": "teacher_invariant_w1.0_cv3",
+          "profile": "invariant",
+          "supervision": "teacher",
+          "weight": 1.0,
+          "metrics": {
+            "correct": 1772,
+            "n": 2114,
+            "loss": 0.4005882143974304,
+            "single_correct": 434,
+            "single_n": 684
+          },
+          "changes": {
+            "fixed": 3,
+            "broken": 13
+          }
+        },
+        {
+          "name": "teacher_ordered_w0.5_cv3",
+          "profile": "ordered",
+          "supervision": "teacher",
+          "weight": 0.5,
+          "metrics": {
+            "correct": 1778,
+            "n": 2114,
+            "loss": 0.4010927975177765,
+            "single_correct": 438,
+            "single_n": 684
+          },
+          "changes": {
+            "fixed": 2,
+            "broken": 6
+          }
+        },
+        {
+          "name": "teacher_ordered_w1.0_cv3",
+          "profile": "ordered",
+          "supervision": "teacher",
+          "weight": 1.0,
+          "metrics": {
+            "correct": 1777,
+            "n": 2114,
+            "loss": 0.4019622802734375,
+            "single_correct": 439,
+            "single_n": 684
+          },
+          "changes": {
+            "fixed": 4,
+            "broken": 9
+          }
+        },
+        {
+          "name": "augmented_invariant_w0.5_cv3",
+          "profile": "invariant",
+          "supervision": "augmented",
+          "weight": 0.5,
+          "metrics": {
+            "correct": 1776,
+            "n": 2114,
+            "loss": 0.4004155695438385,
+            "single_correct": 437,
+            "single_n": 684
+          },
+          "changes": {
+            "fixed": 0,
+            "broken": 6
+          }
+        },
+        {
+          "name": "augmented_invariant_w1.0_cv3",
+          "profile": "invariant",
+          "supervision": "augmented",
+          "weight": 1.0,
+          "metrics": {
+            "correct": 1776,
+            "n": 2114,
+            "loss": 0.4006190598011017,
+            "single_correct": 436,
+            "single_n": 684
+          },
+          "changes": {
+            "fixed": 3,
+            "broken": 9
+          }
+        },
+        {
+          "name": "augmented_ordered_w0.5_cv3",
+          "profile": "ordered",
+          "supervision": "augmented",
+          "weight": 0.5,
+          "metrics": {
+            "correct": 1777,
+            "n": 2114,
+            "loss": 0.40092289447784424,
+            "single_correct": 437,
+            "single_n": 684
+          },
+          "changes": {
+            "fixed": 0,
+            "broken": 5
+          }
+        },
+        {
+          "name": "augmented_ordered_w1.0_cv3",
+          "profile": "ordered",
+          "supervision": "augmented",
+          "weight": 1.0,
+          "metrics": {
+            "correct": 1776,
+            "n": 2114,
+            "loss": 0.40160971879959106,
+            "single_correct": 435,
+            "single_n": 684
+          },
+          "changes": {
+            "fixed": 4,
+            "broken": 10
+          }
+        }
+      ],
+      "costs": {
+        "seconds": 15.299117300019134,
+        "fingerprint_extraction_seconds": 14.713568900013342
+      },
+      "cost_scope": "Nested stage timing reuses earlier cross-fitted features and newly cached deterministic fingerprints; extraction time reported separately.",
+      "decision": "No configuration passed CV3. No CV5, validation or test evaluation. Frozen candidates unchanged.",
+      "validation_read": false,
+      "test_read": false
+    },
+    {
+      "family": "Contextual pair comparators",
+      "original_record": "code/runs/round15/result.json",
+      "screened_outputs": 4,
+      "best_cv3": 1783,
+      "trials": [
+        {
+          "name": "difference_w0.25_cv3",
+          "kind": "difference",
+          "weight": 0.25,
+          "metrics": {
+            "correct": 1779,
+            "n": 2114,
+            "loss": 0.3997700810432434,
+            "single_correct": 440,
+            "single_n": 684
+          },
+          "pair_only": {
+            "correct": 1760,
+            "n": 2114,
+            "loss": 0.40275344252586365,
+            "single_correct": 429,
+            "single_n": 684
+          },
+          "changes": {
+            "fixed": 4,
+            "broken": 7
+          }
+        },
+        {
+          "name": "difference_w0.5_cv3",
+          "kind": "difference",
+          "weight": 0.5,
+          "metrics": {
+            "correct": 1765,
+            "n": 2114,
+            "loss": 0.3998907804489136,
+            "single_correct": 431,
+            "single_n": 684
+          },
+          "pair_only": {
+            "correct": 1760,
+            "n": 2114,
+            "loss": 0.40275344252586365,
+            "single_correct": 429,
+            "single_n": 684
+          },
+          "changes": {
+            "fixed": 5,
+            "broken": 22
+          }
+        },
+        {
+          "name": "context_w0.25_cv3",
+          "kind": "context",
+          "weight": 0.25,
+          "metrics": {
+            "correct": 1783,
+            "n": 2114,
+            "loss": 0.3987606465816498,
+            "single_correct": 442,
+            "single_n": 684
+          },
+          "pair_only": {
+            "correct": 1761,
+            "n": 2114,
+            "loss": 0.39930033683776855,
+            "single_correct": 427,
+            "single_n": 684
+          },
+          "changes": {
+            "fixed": 6,
+            "broken": 5
+          }
+        },
+        {
+          "name": "context_w0.5_cv3",
+          "kind": "context",
+          "weight": 0.5,
+          "metrics": {
+            "correct": 1771,
+            "n": 2114,
+            "loss": 0.39796745777130127,
+            "single_correct": 433,
+            "single_n": 684
+          },
+          "pair_only": {
+            "correct": 1761,
+            "n": 2114,
+            "loss": 0.39930033683776855,
+            "single_correct": 427,
+            "single_n": 684
+          },
+          "changes": {
+            "fixed": 9,
+            "broken": 20
+          }
+        }
+      ],
+      "costs": {
+        "costs": {
+          "extraction": {
+            "seconds": 9.938248199992813,
+            "shape": [
+              4755,
+              12,
+              44
+            ],
+            "validation_read": false,
+            "test_read": false
+          },
+          "cv3_seconds": 6.251631199964322,
+          "cv5_seconds": 8.907191000005696
+        }
+      },
+      "cost_scope": "Reuses frozen nested probe/readout features; timings exclude earlier pipeline feature preparation.",
+      "decision": "CV3 improves by one question (1783 vs 1782), but the locked configuration fails fixed CV5 (1767 vs 1772). No promotion, validation or test evaluation.",
+      "validation_read": false,
+      "test_read": false,
+      "locked_confirmation": [
+        {
+          "name": "context_w0.25_cv5",
+          "kind": "context",
+          "weight": 0.25,
+          "metrics": {
+            "correct": 1767,
+            "n": 2114,
+            "loss": 0.4019368886947632,
+            "single_correct": 426,
+            "single_n": 684
+          },
+          "pair_only": {
+            "correct": 1762,
+            "n": 2114,
+            "loss": 0.4011109471321106,
+            "single_correct": 423,
+            "single_n": 684
+          },
+          "changes": {
+            "fixed": 6,
+            "broken": 11
+          }
+        }
+      ]
+    }
+  ]
+}
